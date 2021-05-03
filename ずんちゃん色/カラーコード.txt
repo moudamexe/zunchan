@@ -1,0 +1,8 @@
+pale cyan
+#a6e2ea
+
+pale orange
+#fee9b7
+
+light grayish green yellow
+#acc19c

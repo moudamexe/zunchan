@@ -1,0 +1,45 @@
+/*初期設定*/
+html, body, div, section, ul, li, ol, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*以下本文*/
+.hd-img {
+    list-style: none;
+}
+.hd-img_img {
+    width: 100%;
+    height: auto;
+}
+
+.kakehashi {
+    background-color: aquamarine;
+}
+
+.concept {
+    background-color: aliceblue;
+}
+.concept-main {
+    background-color: antiquewhite;
+}
+.concept-img {
+    background-color: aqua;
+}
+.concept-img_img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.about-img_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.pf-imgs {
+    list-style: none;
+}
+.pf-imgs_img {
+    width: 100%;
+    object-fit: cover;
+}
