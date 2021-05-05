@@ -64,6 +64,7 @@ section {
     font-weight: 500;
     font-style: normal;
 }
+
 /*アニメーション*/
 .view.view-slideup.on {
     opacity: 0;
@@ -133,6 +134,14 @@ section {
 .about-main h3 span {
     background:linear-gradient(transparent 70%, #fee9b7 0%);
 }
+.about-main_txt {
+    color: rgb(79, 79, 79);
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    font-weight: normal;
+}
 .about-img_img {
     width: 100%;
     object-fit: cover;
@@ -184,6 +193,11 @@ section {
     padding: 0;
     margin: 0;
     font-weight: 500;
+}
+
+.plan div div {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgba(0, 0, 0, 0.70);
 }
 
 @media screen and (max-width: 999px) {
