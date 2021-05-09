@@ -31,8 +31,8 @@ body {
 }
 section {
     background-color: #fff;
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee;
+    border-right: 10px solid #acc19c;
+    border-left: 10px solid #acc19c;
 }
 
 .cols {
@@ -69,6 +69,10 @@ section {
     font-family: "garamond-premier-pro-display",serif;
     font-weight: 500;
     font-style: normal;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 /*アニメーション*/
@@ -206,6 +210,13 @@ section {
 .plan div div {
     font-family: 'Noto Sans JP', sans-serif;
     color: rgba(0, 0, 0, 0.70);
+}
+
+.twitter-a,
+.instagram-a {
+    width: 0px;
+    padding: 0px;
+    margin: 0 35px;
 }
 
 @media screen and (max-width: 999px) {
