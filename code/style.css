@@ -217,6 +217,7 @@ section {
     width: 0px;
     padding: 0px;
     margin: 0 35px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 999px) {
