@@ -108,7 +108,7 @@ section {
     list-style: none;*/
 }
 .hd-img_img {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     background-position: center center;
     object-fit: cover;
@@ -230,6 +230,9 @@ section {
 }
 
 @media screen and (max-width: 767px) {
+    .gutter-70>* {
+        padding: 0;
+    }
     .cols {
         padding: 0 5px;
     }
@@ -261,6 +264,15 @@ section {
 }
 
 @media screen and (max-width: 350px) {
+    .gutter-70>* {
+        padding: 0;
+    }
+    .gutter-sm-0 {
+        padding: 0;
+    }
+    .gutter-sm-40 {
+        padding: 0 20px;
+    }
     .fz350 {
         font-size: 200%;
     }
