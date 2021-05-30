@@ -26,7 +26,7 @@ body {
     /*font-size: 14px;*/
     font-family: 'Hiragino Sans W0';
     font-weight: 100;
-    color: #999;
+    color: #030402;
     line-height: 1.9;
     letter-spacing: .08em;
     /*font-weight: 300;*/
@@ -85,99 +85,59 @@ section {
 }
 .content {
     z-index: 10;
-    opacity: 0;
     /*height: 100% !important;*/
     width: 100%;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-animation: anime 36s 0s infinite;
-    animation: anime 36s 0s infinite;
+}
+#zoSlider {
+    width: 100%;
+    height: 75vh;
+    height: 100% !important;
 }
 .content:nth-of-type(1) {
     background-image: url("Images/portfolio/slideshow/0.jpg");
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
 }
   
 .content:nth-of-type(2) {
     background-image: url("Images/portfolio/slideshow/1.jpg");
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
 }
   
 .content:nth-of-type(3) {
     background-image: url("Images/portfolio/slideshow/2.jpg");
-    -webkit-animation-delay: 9s;
-    animation-delay: 9s;
 }
   
 .content:nth-of-type(4) {
     background-image: url("Images/portfolio/slideshow/3.jpg");
-    -webkit-animation-delay: 12s;
-    animation-delay: 12s;
 }
 
 .content:nth-of-type(5) {
     background-image: url("Images/portfolio/slideshow/4.jpg");
-    -webkit-animation-delay: 15s;
-    animation-delay: 15s;
 }
 
 .content:nth-of-type(6) {
     background-image: url("Images/portfolio/slideshow/5.jpg");
-    -webkit-animation-delay: 18s;
-    animation-delay: 18s;
 }
 
 .content:nth-of-type(7) {
     background-image: url("Images/portfolio/slideshow/6.jpg");
-    -webkit-animation-delay: 21s;
-    animation-delay: 21s;
 }
 
 .content:nth-of-type(8) {
     background-image: url("Images/portfolio/slideshow/7.jpg");
-    -webkit-animation-delay: 24s;
-    animation-delay: 24s;
 }
 
 .content:nth-of-type(9) {
     background-image: url("Images/portfolio/slideshow/8.jpg");
-    -webkit-animation-delay: 27s;
-    animation-delay: 27s;
 }
 
 .content:nth-of-type(10) {
     background-image: url("Images/portfolio/slideshow/9.jpg");
-    -webkit-animation-delay: 30s;
-    animation-delay: 30s;
 }
 
 .content:nth-of-type(11) {
     background-image: url("Images/portfolio/slideshow/10.jpg");
-    -webkit-animation-delay: 33s;
-    animation-delay: 33s;
-}
-@keyframes anime {
-    0% {
-          opacity: 0;
-      }
-    8% {
-          opacity: 1;
-      }
-    17% {
-          opacity: 1;
-      }
-    25% {
-          opacity: 0;
-          transform: scale(1.2) ;
-           z-index:9;
-      }
-    100% { opacity: 0 }
 }
 
 .flex-column {
