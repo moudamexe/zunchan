@@ -166,8 +166,8 @@ section {
 }
 .body-ttl_ttl {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 25%;
     transform: translateX(-55%);
     /*font-family: "garamond-premier-pro-display" ,serif;
     */
@@ -223,7 +223,7 @@ section {
     /*background-color: ;*/
 }
 .concept-img_img {
-    object-fit: cover;
+    object-fit: cover; 
     width: 100%;
 }
 
@@ -350,6 +350,10 @@ section {
     .hd-slideshow {
         height: 280px !important;
     }
+    .concept-img_img {
+        object-position: 0% 80%;
+        height: 20em;
+    }
     .content {
         height: 280px !important;
     }
@@ -370,5 +374,8 @@ section {
     }
     .fz350 {
         font-size: 200%;
+    }
+    .concept-img_img {
+        height: 20em;
     }
 }
